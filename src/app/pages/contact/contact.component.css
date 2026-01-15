@@ -1,0 +1,117 @@
+/* --- Hero Section --- */
+.contact-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=2074&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #ffc107; /* Gold Color */
+}
+
+/* --- Contact Info Side --- */
+.contact-info-card {
+    padding: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.info-item .icon {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    background-color: #fff3cd; /* Light Gold background */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #856404;
+}
+
+.info-item h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    color: #666;
+    margin: 0;
+}
+
+/* Social Icons */
+.social-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.social-link:hover {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* --- Form Side --- */
+.contact-form-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+.form-control:focus {
+    border-color: #ffc107; /* Focus වුණාම Gold පාට බෝඩර් එකක් */
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+/* Map Image Styling */
+.map-img {
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(100%); /* Map එක කළු සුදු කරලා Style එකට ගැලපෙන්න */
+    transition: filter 0.3s;
+}
+
+.map-img:hover {
+    filter: grayscale(0%); /* Mouse එක තිබ්බම පාට වැටෙනවා */
+}

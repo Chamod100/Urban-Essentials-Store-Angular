@@ -1,0 +1,19 @@
+<div class="card">
+  
+  <img *ngIf="product.thumbnail" [src]="product.thumbnail" class="card-img-top" [alt]="product.title">
+  
+  <div class="card-body">
+    
+    <h5 class="card-title" [title]="product.title">{{ product.title }}</h5>
+    
+    <p class="card-text" [title]="product.description">
+      {{ product.description }}
+    </p>
+    
+    <p class="fw-bold text-primary price-text">Price: ${{ product.price }}</p>
+    
+    <a href="#" class="btn btn-primary w-100">Buy Now</a>
+    
+  </div>
+
+</div>
