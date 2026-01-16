@@ -57,3 +57,32 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Urban Essentials Store 🛒
+
+A full-stack e-commerce application built with **Angular** (Frontend) and **Spring Boot** (Backend).
+
+## 🚀 Live Demo
+Click the link below to view the live application:
+👉 **[Open Urban Essentials Store](LINK_EKA_METHANA_DAANNA)**
+
+---
+
+## 📂 Project Structure
+
+This repository contains both the Frontend and Backend code in separate branches:
+
+| Component | Technology | Branch Name |
+|-----------|------------|-------------|
+| **Frontend** | Angular | [`dev`](https://github.com/Chamod100/Urban-Essentials-Store-Angular/) |
+
+---
+
+## 🛠 Installation & Setup Guide
+
+Follow these instructions to set up the project locally.
+
+### 1. Clone the Repository
+First, clone the repository to your local machine:
+```bash
+git clone [https://github.com/Chamod100/Urban-Essentials-Store-Angular.git](https://github.com/Chamod100/Urban-Essentials-Store-Angular.git)
